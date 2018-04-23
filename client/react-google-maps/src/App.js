@@ -16,9 +16,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div id="wrapper">
-          <CustomMap
-            isMarkerShown
-          />
+          <CustomMap />
           <Settings />
         </div>
       </Provider>
